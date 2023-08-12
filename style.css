@@ -1,0 +1,707 @@
+@import url("https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lora:ital@1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.container {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.background {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url(image\ 2.jpg);
+  background-size: cover;
+  opacity: 0.7;
+  box-shadow: 0 1px 1px rgba(0, 0, 9, 9.9), 0 2px 2px rgba(0, 0, 9, 9.9),
+    0 4px 4px rgba(0, 0, 9, 9.9), 0 8px 8px rgba(0, 0, 9, 9.9),
+    0 16px 16px rgba(0, 0, 9, 9.9);
+}
+
+.header {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+  border: 2px solid #fff;
+}
+
+.navbar {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  top: 5%;
+  left: 5%;
+  color: #fff;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.links a {
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Lora", serif;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-family: "Lora", serif;
+}
+
+.logo i {
+  font-size: 30px;
+}
+
+.login {
+  font-size: 30px;
+  font-family: "Lora", serif;
+}
+
+.main {
+  position: absolute;
+  color: #fff;
+  top: 30%;
+  left: 10%;
+  width: 80%;
+  text-align: center;
+  padding: 2%;
+}
+
+.main h1 {
+  font-size: 100px;
+  font-family: "The Nautigal", cursive;
+}
+
+.main p {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.main .search {
+  margin: 0 auto;
+  margin-top: 3%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-family: "Lora", serif;
+}
+
+.main input {
+  padding: 2% 4%;
+  border: 0;
+  outline: 0;
+  border-radius: 20px;
+  flex: 1;
+  height: 45px;
+  font-size: 18px;
+  font-family: "Lora", serif;
+}
+
+.main span {
+  padding: 2% 4%;
+  font-size: 18px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #00feba, #5b548a);
+}
+
+/* -------------------------------------- */
+
+.customize {
+  margin-top: 9%;
+  text-align: center;
+}
+
+.customize h1 {
+  color: #77383d;
+  font-size: 50px;
+  font-family: "Lora", serif;
+}
+
+.customize p {
+  font-size: 30px;
+  font-family: "EB Garamond", serif;
+  margin-top: 2%;
+}
+
+.plans {
+  position: relative;
+  height: 90%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+  max-width: 1664px;
+  margin: 0 auto;
+  font-family: "Lora", serif;
+}
+
+@media (min-width: 600px) {
+  .card {
+    height: 350px;
+  }
+}
+
+.card {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  height: 70%;
+  text-align: center;
+  border-radius: 20px;
+  color: #fff;
+  background-color: black;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4), 0 2px 2px rgba(0, 0, 0, 0.4),
+    0 4px 4px rgba(0, 0, 0, 0.4), 0 8px 8px rgba(0, 0, 0, 0.4),
+    0 16px 16px rgba(0, 0, 0, 0.4);
+}
+
+.honeymoon {
+  width: 100%;
+  height: 100%;
+  background: url(https://images.unsplash.com/photo-1576604303800-f2435c2db6bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhvbmV5bW9vbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+}
+
+.family {
+  width: 100%;
+  height: 100%;
+  background: url(https://images.unsplash.com/flagged/photo-1568264634208-142328cb107d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI3fHxmYW1pbHl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+}
+
+.holidays {
+  height: 100%;
+  width: 100%;
+  background: url(https://images.unsplash.com/photo-1580939779237-d59a155df57d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQyfHxob2xpZGF5cyUyMHN1bW1lcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+}
+
+.content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin: 0 5%;
+  padding: 2% 10% 2% 10%;
+  border-radius: 25px;
+  gap: 2rem;
+  bottom: -150px;
+}
+
+.content h2 {
+  font-size: 35px;
+}
+
+.card:hover .content {
+  width: 90%;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  transform: translateY(-110%);
+  transition-duration: 1.5s;
+}
+
+.card:hover .content h2 {
+  font-weight: 500;
+}
+
+.plan-btn {
+  width: 60%;
+  margin-left: 20%;
+  padding: 15px 20px;
+  border: 0;
+  outline: 0;
+  border-radius: 25px;
+  font-size: 1rem;
+  background: linear-gradient(135deg, #00feba, #5b548a);
+}
+
+@media (min-width: 600px) {
+  .plans {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 800px) {
+  .plans {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* -------------------------------------- */
+
+.featured h1 {
+  color: #77383d;
+  font-size: 50px;
+  font-family: "Lora", serif;
+}
+
+/* -------------------------------------- */
+
+.featuredIn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding: 3rem 0;
+  background: linear-gradient(135deg, #98fae0, #a598fa);
+}
+
+.featuredIn .images {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#business-insider {
+  width: 7rem;
+}
+#the-new-york-times {
+  width: 18rem;
+}
+#forbes {
+  width: 9rem;
+}
+#usa-today {
+  width: 11rem;
+}
+#techcrunch {
+  width: 18rem;
+}
+
+/* -------------------------------------- */
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  margin: 5%;
+}
+
+.gallery h1 {
+  color: #77383d;
+  font-size: 50px;
+  font-family: "Lora", serif;
+}
+
+.gallery-container {
+  position: relative;
+  display: grid;
+  grid-template-columns: 280px 280px 280px 280px;
+  grid-template-rows: 250px 250px 250px;
+  gap: 3rem;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.item h3 {
+  color: #fff;
+  background: linear-gradient(
+    rgba(173, 129, 129, 0.7),
+    rgba(91, 167, 202, 0.7)
+  );
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 25px;
+  position: absolute;
+  opacity: 0;
+}
+
+.item:hover h3 {
+  transform: scale(1.1);
+  transform: translateY(-100%);
+  transition-duration: 1.5s;
+  opacity: 1;
+}
+
+.item img {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  border-radius: 25px;
+
+  transition: 1s;
+}
+
+.item:hover {
+  transform: scale(1.1);
+}
+
+/* ------------------------------------------------- */
+
+.banner {
+  height: 80%;
+  width: 100%;
+  margin: 10% auto;
+  margin-bottom: 5%;
+}
+
+.back {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url(image\ 4.jpg);
+  background-size: cover;
+}
+
+.inner {
+  position: absolute;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.7);
+  height: 35%;
+  width: 100%;
+  top: 20%;
+  padding: 3% 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Lora", serif;
+}
+
+.inner-most h1 {
+  font-size: 2.5rem;
+}
+.inner-most p {
+  margin-top: 1.5%;
+  font-size: 1.2rem;
+}
+
+.booking-btn button {
+  width: 10rem;
+  padding: 5% 15%;
+  border: 0;
+  outline: 0;
+  border-radius: 25px;
+  font-size: 1.5rem;
+  font-family: "Lora", serif;
+  font-weight: 600;
+}
+
+.booking-btn button:hover {
+  background: linear-gradient(to top left, #6740a5, #04faee);
+}
+
+/* ----------------------------------------- */
+
+.feedback {
+  width: 90%;
+  height: 100%;
+  margin: 5% auto;
+  text-align: center;
+}
+
+.feedback h1 {
+  color: #77383d;
+  font-size: 3rem;
+  font-family: "Lora", serif;
+  margin-bottom: 5%;
+}
+.review {
+  display: grid;
+  grid-template-columns: 430px 430px 430px;
+  gap: 6rem 3rem;
+}
+
+.own {
+  border: 0;
+  outline: 0;
+  border-radius: 25px;
+  padding: 5%;
+  height: 250px;
+  background: linear-gradient(to top left, #927db3, #71d7ff);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 100, 0.7);
+}
+
+.own p {
+  font-size: 1.2rem;
+  padding: 3%;
+}
+.own h3 {
+  font-size: 1.5rem;
+  padding: 5%;
+  font-family: "Lora", serif;
+}
+.own h4 {
+  font-size: 1.3rem;
+  padding: 1%;
+  font-family: "Lora", serif;
+}
+
+.own img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+
+  margin: 5px 0 20px 0;
+}
+
+/* ------------------------------------------------------ */
+
+.section-review {
+  padding: 8rem 5rem 2rem;
+  margin-bottom: 3rem;
+}
+
+.reviewOwn {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  border-radius: 50px;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.15);
+  background-image: linear-gradient(to right bottom, #9cfa5e, #5179ff);
+  overflow: hidden;
+}
+
+.review-text-box {
+  padding: 5rem 3rem 3rem 3rem;
+  color: #45260a;
+}
+
+.reviewOwn .heading-secondary {
+  color: black;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.review-text {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-bottom: 2.5rem;
+}
+
+.review-img-box {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(31, 31, 30, 0.35),
+      rgba(37, 37, 37, 0.35)
+    ),
+    url(https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQ5fHxuYXR1cmV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  background-position: center;
+}
+
+.review-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1rem;
+  row-gap: 2rem;
+}
+
+.write-review {
+  grid-column: 1 / span 2;
+}
+
+.review-form label {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+
+.review-form input,
+.review-form select {
+  width: 80%;
+  padding: 1.2rem;
+  font-size: 1.2rem;
+  font-family: inherit;
+  color: black;
+  border: none;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.review-form input::placeholder {
+  color: #aaa;
+}
+
+.btn--form {
+  margin: 3rem;
+  border: 0;
+  outline-style: 0;
+  background: linear-gradient(to right bottom, #fa5e5e, #740036);
+  color: white;
+  font-size: 1.5rem;
+  padding: 1rem 3rem;
+  border-radius: 25px;
+}
+
+/* -------------------------------------------------- */
+
+.footer {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 4% auto 10% auto;
+  padding-bottom: 4%;
+  gap: 0.5rem;
+}
+
+.last {
+  padding: 1.5%;
+  height: 250px;
+  width: 250px;
+}
+
+/* ---------- Part 1 ----------- */
+.logo-footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.icons-footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.brand-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.brand-logo i {
+  font-size: 2rem;
+}
+
+.links-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.links-footer i {
+  font-size: 2rem;
+}
+
+.copyright p {
+  font-size: 1rem;
+}
+
+/* ---------- Part 2 ----------- */
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.6rem;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+/* ---------- Part 3 ----------- */
+
+.account {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.make {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* ---------- Part 4 ----------- */
+
+.company {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* ---------- Part 5 ----------- */
+
+.resource {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.res-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* ---------- other ----------- */
+
+.footer-heading {
+  font-size: 1.7rem;
+  color: #444444;
+}
+
+.footer-link a {
+  text-decoration: none;
+  color: black;
+  padding: 8px;
+  font-size: 1.2rem;
+}
+
+.footer-para {
+  font-size: 1.3rem;
+  /* padding-top: 1.2rem; */
+}
